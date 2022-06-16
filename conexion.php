@@ -1,10 +1,10 @@
 <?php
 function conectar(){
-    $host="sql5.freemysqlhosting.net:3306";
-    $user="sql5500090";
-    $pass="nprGY4j9kL";
+    $host="localhost";
+    $user="root";
+    $pass="";
 
-    $bd="sql5500090";
+    $bd="optica";
 
     $con=mysqli_connect($host,$user,$pass);
 
